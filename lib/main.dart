@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
-import 'calculatorScreen.dart';
+import 'obratnaya_svyaz.dart';
 
-void main() => runApp(CalculatorApp());
+void main() {
+  runApp(MyApp());
+}
 
-class CalculatorApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CalculatorScreen(),
+      home: ObratnayaSvyaz(),
     );
   }
 }
